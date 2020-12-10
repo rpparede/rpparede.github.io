@@ -1,3 +1,5 @@
+
+
 /*-----------------------------------------------------------------------------------
 
     Template Name: Unfold - Personal Resume & CV Template
@@ -30,6 +32,7 @@
 /*===========================
     1. COMMON css
 ===========================*/
+/*
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 
 body {
@@ -1757,5 +1760,7 @@ p.form-message.success, p.form-message.error {
       right: 0;
       line-height: 54px;
       cursor: pointer; }
-
+      */
 /*# sourceMappingURL=style.css.map */
+
+
