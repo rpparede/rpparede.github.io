@@ -15,7 +15,21 @@ body { font-family: "Poppins", sans-serif;
   box-sizing: border-box; }
 
 img { max-width: 100%; }
-
+.emoji{
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pointer{
+  background-image: url('../images/emoji/pointright.png');
+  margin: 0 5px -5px ;
+}
+.wave{
+  background-image: url('../images/emoji/wave.png');
+  margin: 0 5px -5px ;
+}
 a:focus,
 input:focus,
 textarea:focus,
@@ -25,7 +39,9 @@ button:focus {
 
 a:focus,a:hover {text-decoration: none; }
 
-i,span,a { display: inline-block; }
+i,span,a { 
+  display: inline-block;
+ }
 
 
 
@@ -33,6 +49,11 @@ h1,h2,h3,h4,h5,h6 {  font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #56a79a; /*#32333c;*/
   margin: 0px; }
+
+.turquoise-text{
+  font-weight: 600;
+  color: #56a79a; /*#32333c;*/
+}  
 
 h1 {font-size: 60px; }
 
@@ -368,7 +389,7 @@ p {font-size: 16px;
       content: '';
       width: 100%;
       height: 2px;
-      background-color: #754ef9;
+      background-color: #56a79a;
       left: -102.5%;
       top: 50%;
       -webkit-transform: translateY(-50%);
