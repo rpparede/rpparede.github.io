@@ -6,7 +6,11 @@ body { font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #8a8fa3; }
 
-
+.justify-content-left{
+  justify-content: left;
+}
+div.justify-content-left  li  {
+margin-bottom: 20px; }
 * {
   margin: 0;
   padding: 0;
@@ -353,7 +357,7 @@ p {font-size: 16px;
   position: relative; }
   .header-content-right .sub-title {
     font-size: 30px;
-    color: #888; /*#754ef9;*/
+    color: #888; 
     text-transform: uppercase;
     padding-bottom: 15px; }
 
@@ -421,7 +425,10 @@ p {font-size: 16px;
           background-color: #754ef9;
           border-color: #754ef9; }
 
-
+.about-area {
+  padding-top: 90px;
+  padding-bottom: 90px; 
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area {
     padding-top: 90px;
@@ -503,17 +510,20 @@ p {font-size: 16px;
       transition: all 2s ease-out 0s;
       width: 0; }
 
-
+.skills-area {
+  padding-top: 90px;
+  padding-bottom: 100px; 
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .services-area {
+  .skills-area {
     padding-top: 90px;
     padding-bottom: 100px; } }
 @media (max-width: 767px) {
-  .services-area {
+  .skills-area {
     padding-top: 70px;
     padding-bottom: 80px; } }
 
-.single-service {
+.single-skill {
   background-color: #fff;
   border: 1px solid #eceff8;
   border-radius: 5px;
@@ -524,15 +534,15 @@ p {font-size: 16px;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   @media (max-width: 767px) {
-    .single-service {
+    .single-skill {
       padding: 15px; } }
-  .single-service .service-icon i {
+  .single-skill .skill-icon i {
     font-size: 60px;
     color: #56a79a;
     line-height: 56px; }
-  .single-service .service-content {
+  .single-skill .skill-content {
     margin-top: 11px; }
-    .single-service .service-content .service-title a {
+    .single-skill .skill-content .skill-title a {
       font-size: 22px;
       font-weight: 600;
       color: #32333c;
@@ -542,9 +552,9 @@ p {font-size: 16px;
       -ms-transition: all 0.3s ease-out 0s;
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
-      .single-service .service-content .service-title a:hover {
+      .single-skill .skill-content .service-title a:hover {
         color: #754ef9; }
-  .single-service:hover {
+  .single-skill:hover {
     -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
     -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
     box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
@@ -561,8 +571,17 @@ p {font-size: 16px;
     padding-top: 70px;
     padding-bottom: 80px; } }
 
+
+
 .single-work {
-  position: relative; }
+  position: relative; 
+  padding: 25px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;}
+
   .single-work .work-image img {
     width: 100%; }
   .single-work .work-overlay {
