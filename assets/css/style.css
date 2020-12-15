@@ -431,12 +431,12 @@ p {font-size: 16px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
+    padding-top: 45;
+    padding-bottom: 45; } }
 @media (max-width: 767px) {
   .about-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
+    padding-top: 45px;
+    padding-bottom: 45px; } }
 
 .about-content .about-title {
   font-size: 18px;
@@ -460,6 +460,10 @@ p {font-size: 16px;
       .about-content ul li {
         width: 50%;
         float: left; } }
+
+.skill-title{
+ 
+}
 .about-content .single-info .info-icon i {
   font-size: 16px;
   color: #754ef9; }
@@ -470,7 +474,7 @@ p {font-size: 16px;
 
 .about-skills .skill-item .skill-header {
   position: relative; }
-  .about-skills .skill-item .skill-header .skill-title {
+  .about-skills .skill-item .skill-header  {
     font-size: 16px;
     font-weight: 400; }
   .about-skills .skill-item .skill-header .skill-percentage {
@@ -511,22 +515,22 @@ p {font-size: 16px;
       width: 0; }
 
 .skills-area {
-  padding-top: 90px;
-  padding-bottom: 100px; 
+  padding-top: 45px;
+  padding-bottom: 45px; 
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .skills-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
+    padding-top: 45px;
+    padding-bottom: 45px; } }
 @media (max-width: 767px) {
   .skills-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
+    padding-top: 45px;
+    padding-bottom: 45px; } }
 
 .single-skill {
   background-color: #fff;
-  border: 1px solid #eceff8;
-  border-radius: 5px;
+ /* border: 1px solid #eceff8;
+  border-radius: 5px;*/
   padding: 25px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -564,15 +568,16 @@ p {font-size: 16px;
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .work-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
+    padding-top: 45px;
+    padding-bottom: 45px; } }
 @media (max-width: 767px) {
   .work-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
+    padding-top: 45px;
+    padding-bottom: 45px; } }
 
-
-
+.work-title {
+margin-bottom: 30px;
+}
 .single-work {
   position: relative; 
   padding: 25px;
@@ -696,16 +701,22 @@ p {font-size: 16px;
       transform: translateX(0);
       opacity: 1; }
 
+      .single-work:hover {
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+        box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
 
-
+.contact-area {
+  padding-top: 90px;
+  padding-bottom: 100px; }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
+    padding-top: 45px;
+    padding-bottom: 45px; } }
 @media (max-width: 767px) {
   .contact-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
+    padding-top: 45px;
+    padding-bottom: 45px; } }
 
 .experience-box{
   background-color: #fff;
@@ -720,7 +731,7 @@ p {font-size: 16px;
 }
 .contact-box {
   background-color: #fff;
-  border: 1px solid #ddd;
+
   padding: 30px 35px;
     margin-bottom: 20px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -802,5 +813,5 @@ p {font-size: 16px;
   display: none; }
   .back-to-top:hover {
     color: #fff;
-    background-color: #754ef9;
-    border-color: #754ef9; }
+  
+    border-color: #56a79a; }
