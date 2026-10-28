@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
+    <meta name="description" content="Ronny Paredes, Software Engineer II at Microsoft working on backend systems and cloud infrastructure.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ronny Paredes</title>
     <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?version=2" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css?version=6" type="text/css">
     <!--  Update to male technologist icon -->
     <link rel="shortcut icon" href="assets/images/ronny.jpg" type="image/jpg">
   </head>
@@ -63,21 +63,39 @@
         </div>
       </div>
       <div id="landing-page" class="header-content d-flex align-items-center">
-        <div class="container">
+        <div class="hero-bg" aria-hidden="true">
+          <span class="blob blob-one"></span>
+          <span class="blob blob-two"></span>
+          <span class="blob blob-three"></span>
+          <span class="hero-grid"></span>
+        </div>
+        <div class="container hero-inner">
           <div align="center">
-            <h3 class="sub-title" style="color:#35424a;">
+            <h3 class="sub-title hero-anim" style="color:#35424a;">
               Hi there!
               <span class="emoji wave"></span>
             </h3>
-            <p>
-              I’m
-              <span class="turquoise-text">
-                Ronny Paredes
-              </span>
-              , a full-stack software developer passionate about building systems at scale
+            <h1 class="hero-name hero-anim">
+              I’m <span class="turquoise-text">Ronny Paredes</span>
+            </h1>
+            <p class="hero-role hero-anim">
+              Software Engineer II at Microsoft
             </p>
+            <p class="hero-typed hero-anim">
+              I build
+              <span class="typed-text" data-words='["backend systems at scale", "cloud infrastructure", "reliable production services", "with AI agents"]'>backend systems at scale</span><span class="typed-cursor" aria-hidden="true"></span>
+            </p>
+            <div class="hero-actions hero-anim">
+              <a class="btn-main page-scroll" href="#experience">See my experience</a>
+              <a class="btn-ghost" href="https://www.linkedin.com/in/rpparedes/">
+                <i class="lni lni-linkedin-original"></i> Connect
+              </a>
+            </div>
           </div>
         </div>
+        <a class="scroll-down page-scroll" href="#about" aria-label="Scroll to About">
+          <span></span>
+        </a>
         <div class="header-social">
           <div class="container">
             <div class="row">
@@ -86,7 +104,7 @@
                   <p>
                     Get in touch
                     <span class="emoji pointer"></span>
-                    <a> rpparede@uwaterloo.ca</a>
+                    <a href="https://www.linkedin.com/in/rpparedes/">LinkedIn</a>
                   </p>
                 </div>
               </div>
@@ -94,8 +112,7 @@
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
   <section id="about" class="about-area pt-125 pb-130">
     <div class="container">
       <div class="row justify-content-center">
@@ -103,14 +120,14 @@
           <div class="section-title text-center">
             <h2 class="title">About Me</h2>
             <p>
-              I'm a third year Mechatronics engineering student at the University of Waterloo.
-
-                            I'm interestend in the entire cycle of Software development, I'm currently looking for a Software Engineering internship for Summer 2021.
+              I'm a backend and infrastructure engineer at Microsoft, where I work on Azure PlayFab, a multi-tenant
+              cloud platform that powers live services for game studios around the world.
             </p>
             <br>
             <p>
-              I have experience in different areas of Software development such as Backend development, Full-stack development, Game Development and QA.
-                            I have worked in different projects where I have made meaningful contributions towards the end product.
+              I enjoy the whole lifecycle of running services in production: designing APIs and distributed systems,
+              automating infrastructure and deployments, keeping things reliable on call, and lately, building with AI agents.
+              I studied Mechatronics Engineering (Software Engineering Option) at the University of Waterloo.
             </p>
           </div>
         </div>
@@ -127,83 +144,115 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-6 col-sm-8">
+        <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-skill text-center mt-30">
             <div class="skill-icon">
-              <i class="lni lni-pagination"></i>
+              <i class="lni lni-code"></i>
             </div>
             <div class="skill-content">
               <h4 class="skill-title">
                 Languages
               </h4>
               <ul>
-                <li>Go</li>
-                <li>PHP</li>
-                <li>Java Script</li>
-                <li>Java</li>
                 <li>C#</li>
-                <li>C | C++</li>
                 <li>Python</li>
+                <li>Go</li>
+                <li>TypeScript / JavaScript</li>
+                <li>SQL</li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-8">
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-skill text-center mt-30">
+            <div class="skill-icon">
+              <i class="lni lni-layers"></i>
+            </div>
+            <div class="skill-content">
+              <h4 class="skill-title">
+                Backend
+              </h4>
+              <ul>
+                <li>.NET</li>
+                <li>REST / gRPC APIs</li>
+                <li>Microservices</li>
+                <li>Distributed Systems</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-skill text-center mt-30">
             <div class="skill-icon">
               <i class="lni lni-cloud-network"></i>
             </div>
             <div class="skill-content">
               <h4 class="skill-title">
-                Technologies
+                Cloud &amp; Infrastructure
               </h4>
               <ul>
-                <li>React JS</li>
-                <li>Node JS</li>
-                <li>.NET</li>
-                <li>Ruby on Rails</li>
-                <li>REST/RPC API's</li>
-                <li>Docker</li>
+                <li>Azure</li>
+                <li>AWS</li>
                 <li>Kubernetes</li>
+                <li>Docker</li>
+                <li>Terraform / Bicep</li>
+                <li>CI/CD</li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-8">
+        <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-skill text-center mt-30">
             <div class="skill-icon">
               <i class="lni lni-database"></i>
             </div>
             <div class="skill-content">
               <h4 class="skill-title">
-                Databases
+                Data
               </h4>
               <ul>
+                <li>Cosmos DB</li>
+                <li>DynamoDB</li>
+                <li>PostgreSQL</li>
                 <li>MySQL</li>
-                <li>PostgresSQL</li>
-                <li>MongoDB</li>
-                <li>Couchbase</li>
-                <li>Firebase</li>
+                <li>Redis</li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-8">
+        <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-skill text-center mt-30">
             <div class="skill-icon">
-              <i class="lni lni-cog"></i>
+              <i class="lni lni-pulse"></i>
             </div>
             <div class="skill-content">
               <h4 class="skill-title">
-                Tools
+                Reliability
               </h4>
               <ul>
-                <li>Unity</li>
-                <li>JIRA</li>
-                <li>AWS</li>
-                <li>Jenkins</li>
-                <li>Postman</li>
-                <li>Git</li>
+                <li>OpenTelemetry</li>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+                <li>Incident Response</li>
+                <li>SLOs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-skill text-center mt-30">
+            <div class="skill-icon">
+              <i class="lni lni-bulb"></i>
+            </div>
+            <div class="skill-content">
+              <h4 class="skill-title">
+                AI &amp; Agents
+              </h4>
+              <ul>
+                <li>GitHub Copilot</li>
+                <li>Copilot Studio</li>
+                <li>AI Agents</li>
+                <li>Agentic Development</li>
               </ul>
             </div>
           </div>
@@ -216,139 +265,83 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="section-title text-center pb-30">
-            <h2 class="title">Work Experience</h2>
+            <h2 class="title">Experience</h2>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-sm-12">
-          <div class="single-work  mt-30">
-            <div class="skill-content">
-              <div class="work-details">
-                <h4 class="work-title ">
-                  Software Engineering Intern - Poker
-                </h4>
-                <h4 class="work-location">
-                  Zynga
-                </h4>
-                <h4 class="work-dates">
-                  Sep - Dec 2020
-                </h4>
-              </div>
-              <div class="justify-content-left">
-                <ul>
-                  <li>• Developed microservices using Go, PostgreSQL, gRPC and Docker, decreasing client-server latency by 700%</li>
-                  <li>• Wrote a JavaScript plugin for Unity to secure account creations with reCaptcha v2, decreasing 90% of suspicious traffic</li>
-                  <li>• Refactored Facebook notification system, moving 40K daily API calls from PHP cron jobs to an internal notification system</li>
-                  <li>
-                    • Streamlined onboarding process for new engineers by creating a set of exercises using internal tools and code bases,
-                                    shortening onboarding cycle from 4 to 3 weeks
-                  </li>
-                </ul>
-              </div>
+        <div class="col-lg-10">
+          <div class="single-work mt-30">
+            <div class="work-header">
+              <h4 class="work-title">Software Engineer II</h4>
+              <span class="work-dates">2022 – Present</span>
             </div>
+            <h5 class="work-location">Microsoft · Xbox / Azure PlayFab</h5>
+            <p>
+              Building and operating backend services and cloud infrastructure for a high-traffic, multi-tenant Azure platform.
+              My work spans APIs, large-scale data migrations, Kubernetes, infrastructure as code, security, and on-call,
+              and more recently, using AI agents to automate developer and operations workflows.
+            </p>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-sm-12">
-          <div class="single-work  mt-30">
-            <div class="skill-content">
-              <div class="work-details">
-                <h4 class="work-title ">
-                  Software Engineering Intern - Poker
-                </h4>
-                <h4 class="work-location">
-                  Zynga
-                </h4>
-                <h4 class="work-dates">
-                  Jan - Apr 2020
-                </h4>
-              </div>
-              <div class="justify-content-left">
-                <ul>
-                  <li>• Designed a RESTful API using PHP to send push notification rewards, increasing click-through rate by 20%</li>
-                  <li>• Implemented a PostgreSQL database to optimize the generation and claim time of token-based player incentives</li>
-                  <li>• Created admin tools using ReactJS to allow efficient management and deployment of notification campaigns</li>
-                  <li>• Integrated real-time communication between web services and Unity using C# to display game rewards</li>
-                </ul>
-              </div>
+        <div class="col-lg-10">
+          <div class="single-work mt-30">
+            <div class="work-header">
+              <h4 class="work-title">Software Engineering Intern</h4>
+              <span class="work-dates">2021</span>
             </div>
+            <h5 class="work-location">Microsoft</h5>
+            <p>Built a cross-platform telemetry framework that made it much easier for teams to add new events.</p>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-sm-12">
-          <div class="single-work  mt-30">
-            <div class="skill-content">
-              <div class="work-details">
-                <h4 class="work-title ">
-                  Full-Stack developer
-                </h4>
-                <h4 class="work-location">
-                  Bronte College
-                </h4>
-                <h4 class="work-dates">
-                  May - Aug 2019
-                </h4>
-              </div>
-              <div class="justify-content-left">
-                <ul>
-                  <li>• Architected a client-server model employee management system in Ruby on Rails used by all employees</li>
-                  <li>• Implemented an employee vacation request feature, decreasing management approval time by 40%</li>
-                  <li>• Designed maintainable and reusable UI components using HTML, CSS, and Bootstrap for web and mobile devices</li>
-                </ul>
-              </div>
+        <div class="col-lg-10">
+          <div class="single-work mt-30">
+            <div class="work-header">
+              <h4 class="work-title">Software Engineering Intern</h4>
+              <span class="work-dates">2020</span>
             </div>
+            <h5 class="work-location">Zynga · Poker</h5>
+            <p>Moved backend functionality into Go microservices and built APIs and tools for player rewards.</p>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-sm-12">
-          <div class="single-work  mt-30">
-            <div class="skill-content">
-              <div class="work-details">
-                <h4 class="work-title ">
-                  Software Automation Specialist
-                </h4>
-                <h4 class="work-location">
-                  Method: CRM
-                </h4>
-                <h4 class="work-dates">
-                  Sep - Dec 2018
-                </h4>
-              </div>
-              <div class="justify-content-left">
-                <ul>
-                  <li>• Built a test suite using Selenium scripts, shortening testing cycle by 60% during each release</li>
-                  <li>• Optimized client-side regression testing in Java with 90% accuracy by developing an image comparison tool</li>
-                </ul>
-              </div>
+        <div class="col-lg-10">
+          <div class="single-work mt-30">
+            <div class="work-header">
+              <h4 class="work-title">Full-Stack Developer</h4>
+              <span class="work-dates">2019</span>
             </div>
+            <h5 class="work-location">Bronte College</h5>
+            <p>Built an internal employee management web app, including features like vacation requests.</p>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-sm-12">
-          <div class="single-work  mt-30">
-            <div class="skill-content">
-              <div class="work-details">
-                <h4 class="work-title ">
-                  Systems Engineering Intern
-                </h4>
-                <h4 class="work-location">
-                  Safran
-                </h4>
-                <h4 class="work-dates">
-                  Jan - Apr 2018
-                </h4>
-              </div>
-              <div class="justify-content-left">
-                <ul>
-                  <li>• Developed a program that summarizes flight test data using Visual Basic, increasing efficiency by 200%</li>
-                </ul>
-              </div>
+        <div class="col-lg-10">
+          <div class="single-work mt-30">
+            <div class="work-header">
+              <h4 class="work-title">Software Automation Specialist</h4>
+              <span class="work-dates">2018</span>
             </div>
+            <h5 class="work-location">Method:CRM</h5>
+            <p>Automated testing for a web product with Selenium and built tools to speed up regression testing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="single-work mt-30">
+            <div class="work-header">
+              <h4 class="work-title">Systems Engineering Intern</h4>
+              <span class="work-dates">2018</span>
+            </div>
+            <h5 class="work-location">Safran</h5>
+            <p>Wrote tooling to process and summarize flight test data.</p>
           </div>
         </div>
       </div>
@@ -360,35 +353,13 @@
         <div class="col-lg-8">
           <div class="section-title text-center pb-25">
             <h2 class="title">CONTACT ME</h2>
-            <p> If you have any questions, feel free to reach out to me!</p>
+            <p> If you have any questions, feel free to reach out to me on LinkedIn!</p>
           </div>
           <!-- section title -->
         </div>
       </div>
       <!-- row -->
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-6 col-sm-7">
-          <div class="contact-box text-center mt-30">
-            <div class="contact-icon">
-              <i class="lni lni-envelope"></i>
-            </div>
-            <div class="contact-content">
-              <h4 class="skill-title" style="color:#32333c;">Email</h4>
-              <p>rpparede@uwaterloo.ca</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-7">
-          <div class="contact-box text-center mt-30">
-            <div class="contact-icon">
-              <i class="lni lni-phone"></i>
-            </div>
-            <div class="contact-content">
-              <h4 class="skill-title" style="color:#32333c;">Phone</h4>
-              <p>+1 (647) 884 - 0813</p>
-            </div>
-          </div>
-        </div>
         <div class="col-lg-4 col-md-6 col-sm-7">
           <div class="contact-box text-center mt-30">
             <div class="contact-icon">
@@ -418,38 +389,6 @@
       </div>
     </div>
   </section>
-  <!--
-                          <div class="header-social">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="header-social-icon">
-                                    <p>
-                                        Get in touch
-                                        <span class="turquoise-text">
-                                            ->
-                                        </span>
-                                        <a> rpparede@uwaterloo.ca</a>
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            <a href="https://github.com/rpparede">
-                                                <i class="lni-github-original"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/ronny-patricio-paredes-cordova-409638122/">
-                                                <i class="lni-linkedin-original"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                              </div>
-                            </div>
-
-                        </div>
-                    </div>
-        -->
   <a href="#" class="back-to-top">
     <i class="lni lni-chevron-up"></i>
   </a>
@@ -465,5 +404,6 @@
   <script src="assets/js/scrolling-nav.js"></script>
   <script src="assets/js/jquery.easing.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/effects.js"></script>
 </body>
 </html>
